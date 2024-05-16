@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.audio-controls {
+  display: flex;
+}
+
+.prev,
+.play,
+.pause,
+.next {
+  max-width: 33%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
